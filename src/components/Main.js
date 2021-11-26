@@ -12,13 +12,8 @@ class Main extends Component {
             <div className="content">
               <p>&nbsp;</p>
               <h1>Main Page</h1>
-              {/* Creatining uploading card ... */}
-                {/* Uploading file... */}
               <p>&nbsp;</p>
-              {/* Create Table*/}
               <table className="table-sm table-bordered text-monospace" style={{ width: '1000px', maxHeight: '450px'}}>
-              {/* Set table columns */}
-                {/* Mapping rows... */}
               </table>
             </div>
           </main>
