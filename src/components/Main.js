@@ -11,7 +11,7 @@ class Main extends Component {
           <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '1024px' }}>
             <div className="content">
               <p>&nbsp;</p>
-              <h1>DStorage starter_code</h1>
+              <h1>Main Page</h1>
               {/* Creatining uploading card ... */}
                 {/* Uploading file... */}
               <p>&nbsp;</p>
@@ -26,6 +26,13 @@ class Main extends Component {
       </div>
     );
   }
+  
 }
-
+var toInsert = document.createElement("div");
+toInsert.innerHTML = "By Gunal";
+toInsert.style.position = "absolute";
+toInsert.style.bottom = "0px";
+toInsert.style.textAlign = "right";
+toInsert.style.width = "100%";
+document.body.appendChild(toInsert);
 export default Main;
