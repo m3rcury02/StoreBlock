@@ -17,7 +17,7 @@ class Navbar extends Component {
           StoreBlock
         </a>
         <ul className="navbar-nav px-3">
-          <b className='text-white'>{'for VIT'}</b>
+          <b className='text-white'>{this.props.account}</b>
         </ul>
       </nav>
     );
